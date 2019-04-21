@@ -1,0 +1,79 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+
+header{background:gray;
+		height:50px;
+		text-align:center;
+		color:white;
+		margin-bottom: 20px;}
+
+#score{
+	margin:0 auto;
+	padding-top: 10px;
+	border:2px solid black;
+	width:250px;
+	height:80px;
+	font-size:50px;
+	text-align: center;
+	border-radius: 5px;
+	position: relative;}
+
+.badge {
+	background:orange;
+	margin:5px;
+	padding:3px;
+	width:80px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 5px;
+
+}
+
+#user-label{
+	position: absolute;
+	top:20px;
+	left:-40px;
+}
+#comp-label{
+	position: absolute;
+	top:20px;
+	right:-40px;
+}
+
+
+
+
+.size{
+	background-size: 60px;
+	height:100px;
+	width: 100px;
+}
+	
+p{
+	margin-top: 20px;
+	text-align: center;
+
+	font-size: 45px;
+}
+
+.choices{
+	margin-top:25px;
+	text-align: center;
+
+}
+
+.choice{
+	display: inline-block;
+	border:2px solid orange;
+	border-radius: 50%;
+	margin:25px;
+	padding:10px;
+
+}
+.choice:hover{
+	background: orange;
+	cursor: pointer;
+}
